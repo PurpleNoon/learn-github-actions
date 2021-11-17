@@ -1,0 +1,15 @@
+name: preview
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-project:
+    runs-on: ubuntu-lastest
+    steps:
+      - uses: action/check-out@v2
+      - uses: action/setup-node@v2
+        with:
+          node-version: '14'
+      run: yarn install
+      run: yarn build
