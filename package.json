@@ -1,7 +1,7 @@
 {
   "name": "herb_recipe",
   "version": "0.0.0",
-  "homepage": "https://PurpleNoon.github.io/github-actions-demo",
+  "homepage": "https://PurpleNoon.github.io/learn-github-actions",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
